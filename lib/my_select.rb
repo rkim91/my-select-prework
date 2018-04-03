@@ -5,9 +5,7 @@ def my_select(collection)
      if yield(collection[i])
        arr << collection[i]
      end
-     #arr << yield(collection[i])
      i += 1
    end
    return arr
-  #  return arr
 end
